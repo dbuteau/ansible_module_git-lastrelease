@@ -16,8 +16,8 @@ ANSIBLE_METADATA = {'metadata_version': '1.1',
 DOCUMENTATION = '''
 ---
 module: git_lastrelease
-short_description: get the latest release name and download links from github or gitlab
-description: get the latest release name and download links from github or gitlab
+short_description: get the latest release name from github or gitlab project
+description: get the latest release name from github or gitlab project
 version_added: 2.8.5
 options:
     repo:
